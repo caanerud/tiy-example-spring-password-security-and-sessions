@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - passwords@localhost" uuid="1f8e54a8-1ee7-4bdc-ae26-6fd268e9204d">
+    <database-info product="PostgreSQL" version="9.5.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.6">
+      <database id="1" name="passwords">
+        <object-id>104046</object-id>
+        <visible>1</visible>
+      </database>
+      <database id="2" name="postgres">
+        <object-id>12641</object-id>
+      </database>
+      <database id="3" name="doug">
+        <object-id>24694</object-id>
+      </database>
+      <database id="4" name="purchases">
+        <object-id>24695</object-id>
+      </database>
+      <database id="5" name="hellodb">
+        <object-id>24716</object-id>
+      </database>
+      <database id="6" name="workouttracker">
+        <object-id>24726</object-id>
+      </database>
+      <database id="7" name="springorm">
+        <object-id>24821</object-id>
+      </database>
+      <database id="8" name="hashing">
+        <object-id>24999</object-id>
+      </database>
+      <database id="9" name="calendar">
+        <object-id>25024</object-id>
+      </database>
+      <database id="10" name="shouter">
+        <object-id>25083</object-id>
+      </database>
+      <database id="11" name="microblogspring">
+        <object-id>25249</object-id>
+      </database>
+      <database id="12" name="microblogspringorm">
+        <object-id>25257</object-id>
+      </database>
+      <database id="13" name="alcoholtracker">
+        <object-id>25283</object-id>
+      </database>
+      <database id="14" name="imdb">
+        <object-id>25308</object-id>
+      </database>
+      <database id="15" name="Adventureworks">
+        <object-id>99311</object-id>
+      </database>
+      <database id="16" name="people2">
+        <object-id>102117</object-id>
+      </database>
+      <database id="17" name="peopleold">
+        <object-id>102466</object-id>
+      </database>
+      <database id="18" name="tiyorm">
+        <object-id>102632</object-id>
+      </database>
+      <database id="19" name="something">
+        <object-id>102658</object-id>
+      </database>
+      <database id="20" name="pokemon">
+        <object-id>102671</object-id>
+      </database>
+      <database id="21" name="people">
+        <object-id>102710</object-id>
+      </database>
+      <database id="22" name="example">
+        <object-id>102848</object-id>
+      </database>
+      <database id="23" name="whatever">
+        <object-id>102849</object-id>
+      </database>
+      <database id="24" name="gametracker">
+        <object-id>102850</object-id>
+      </database>
+      <database id="25" name="widgets">
+        <object-id>102912</object-id>
+      </database>
+      <database id="26" name="widgetstest">
+        <object-id>102958</object-id>
+      </database>
+      <database id="27" name="fortune">
+        <object-id>103001</object-id>
+      </database>
+      <database id="28" name="movies">
+        <object-id>103014</object-id>
+      </database>
+      <database id="29" name="payments">
+        <object-id>103642</object-id>
+      </database>
+      <database id="30" name="jokes">
+        <object-id>103993</object-id>
+      </database>
+      <database id="31" name="games">
+        <object-id>104087</object-id>
+      </database>
+      <schema id="32" parent="1" name="public">
+        <object-id>2200</object-id>
+        <visible>1</visible>
+        <introspection-state-number>6987</introspection-state-number>
+        <introspection-timestamp>2016-09-21.07:16:17.074</introspection-timestamp>
+      </schema>
+      <schema id="33" parent="1" name="pg_catalog">
+        <object-id>11</object-id>
+      </schema>
+      <schema id="34" parent="1" name="pg_toast">
+        <object-id>99</object-id>
+      </schema>
+      <schema id="35" parent="1" name="pg_temp_1">
+        <object-id>11816</object-id>
+      </schema>
+      <schema id="36" parent="1" name="pg_toast_temp_1">
+        <object-id>11817</object-id>
+      </schema>
+      <schema id="37" parent="1" name="information_schema">
+        <object-id>12349</object-id>
+      </schema>
+      <sequence id="38" parent="32" name="hibernate_sequence">
+        <object-id>104055</object-id>
+        <state-number>6825</state-number>
+      </sequence>
+      <table id="39" parent="32" name="users">
+        <object-id>104290</object-id>
+        <state-number>6986</state-number>
+      </table>
+      <column id="40" parent="39" name="id">
+        <state-number>6986</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer|0</data-type>
+      </column>
+      <column id="41" parent="39" name="email">
+        <state-number>6986</state-number>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="42" parent="39" name="name">
+        <state-number>6986</state-number>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="43" parent="39" name="password">
+        <state-number>6986</state-number>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <index id="44" parent="39" name="users_pkey">
+        <object-id>104296</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="45" parent="39" name="uk_6dotkott2kjsp8vw4d0m25fb7">
+        <object-id>104298</object-id>
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="46" parent="39" name="users_pkey">
+        <object-id>104297</object-id>
+        <columns>id</columns>
+        <underlying-index>users_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="47" parent="39" name="uk_6dotkott2kjsp8vw4d0m25fb7">
+        <object-id>104299</object-id>
+        <columns>email</columns>
+        <underlying-index>uk_6dotkott2kjsp8vw4d0m25fb7</underlying-index>
+      </key>
+    </database-model>
+  </data-source>
+</component>

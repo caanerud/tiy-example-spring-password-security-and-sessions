@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Login</h1>
+
+<p><a href="registerForm.html" th:href="@{/register}">No account? Register now!</a></p>
+
+<!--/*@thymesVar id="loginFailed" type="java.lang.Boolean"*/-->
+<div th:if="${loginFailed}">Login Failed!!!</div>
+
+<form action="home.html" th:action="@{/login}" method="post">
+    <p>
+        <input type="email" name="email" placeholder="Email Address" />
+    </p>
+    <p>
+        <input type="password" name="password" placeholder="Password" />
+    </p>
+    <p>
+        <button>Login!</button>
+    </p>
+</form>
+</body>
+</html>

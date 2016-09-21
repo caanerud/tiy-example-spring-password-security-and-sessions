@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - passwords@localhost" uuid="1f8e54a8-1ee7-4bdc-ae26-6fd268e9204d">
+      <secret-storage>master_key</secret-storage>
+      <introspection-scope>passwords:pg_catalog,public</introspection-scope>
+      <resolve-scope>passwords:public</resolve-scope>
+    </data-source>
+  </component>
+</project>
